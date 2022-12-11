@@ -9,7 +9,13 @@ const App = () => {
 	return (
 		<>
 			<Header />
-			<Grid container spacing={3}>
+			<Grid
+				container
+				spacing={3}
+				sx={{
+					paddingTop: "4rem",
+				}}
+			>
 				<Grid item xs={12} md={7}>
 					<AddSong />
 					<SongList />
