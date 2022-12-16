@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+.details {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 2rem;
+}
+.content {
+	flex: "1 0 auto";
+}
+.thumbnail {
+	width: 160px;
+	height: 160px;
+}
+.controls {
+	display: flex;
+	align-items: center;
+	padding-left: 0 1rem;
+}
+.playButton {
+	width: 37px;
+	height: 37px;
+}

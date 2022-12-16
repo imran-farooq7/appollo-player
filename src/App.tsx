@@ -20,7 +20,17 @@ const App = () => {
 					<AddSong />
 					<SongList />
 				</Grid>
-				<Grid item xs={12} md={5}>
+				<Grid
+					style={{
+						position: "fixed",
+						width: "100%",
+						top: "70px",
+						right: "1rem",
+					}}
+					item
+					xs={12}
+					md={5}
+				>
 					<SongPlayer />
 				</Grid>
 			</Grid>
